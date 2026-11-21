@@ -1,0 +1,49 @@
+# Streamlit
+.streamlit/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+HF_TOKEN
+
+# Data outputs (regenerated at runtime — never commit large generated files)
+data/predictions.csv
+data/human_reviews.csv
+data/verified_training_data.csv
+outputs/results.csv
+
+# Trained model artifacts (can be large — never commit weights)
+models/trained/*
+!models/trained/.gitkeep
+
+# Hugging Face cache (model weights live in the HF cache, not the repo)
+.cache/
+hf_cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# OS / editor
+.DS_Store
+Thesaurus.txt
+.idea/
+.vscode/
+*.swp

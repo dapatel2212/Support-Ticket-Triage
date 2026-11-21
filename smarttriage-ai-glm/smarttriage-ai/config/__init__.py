@@ -1,0 +1,1 @@
+"""SmartTriage AI configuration package."""
